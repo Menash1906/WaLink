@@ -39,7 +39,7 @@ export default function Home() {
   };
 
   return (
-    <main className="p-4 min-h-screen flex flex-col gap-12  justify-start items-center">
+    <main className="p-4 min-h-screen flex flex-col gap-12 max-w-7xl mx-auto  justify-start items-center">
       <Logo />
       <div className="grid p-4 rounded-lg grid-cols-1 pt-24 gap-6 md:grid-cols-2 w-full">
         <Inputs
