@@ -9,7 +9,7 @@ const TextInput = ({ text, setText }: Props) => {
     <div className="w-full">
       <label
         htmlFor="message"
-        className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+        className="block mb-2 text-sm font-medium"
       >
         Your message
       </label>

@@ -14,7 +14,7 @@ const Phone = ({ phone, setPhone, checked, setChecked }: Props) => {
       <div>
         <label
           htmlFor="phone"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          className="block mb-2 text-sm font-medium"
         >
           Phone Number
         </label>
