@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html data-theme="garden" lang="en">
+    <html lang="en">
       <body className={`${inter.className} p-6 pt-12 relative`}>
         <QuickLink className=" left-4 top-4" />
         {children}
