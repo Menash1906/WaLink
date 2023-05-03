@@ -10,12 +10,13 @@ import { Tooltip } from "react-tooltip";
 type Props = {
   phone: string;
   text: string;
+  usePhone: boolean;
 };
 
-const QuickActions = ({ text, phone }: Props) => {
+const QuickActions = ({ text, phone, usePhone }: Props) => {
   const handleCopy = () => {
     navigator.clipboard.writeText(
-      `https://wa.me/${phone}?text=${text
+      `https://wa.me/${usePhone ? phone : ""}?text=${text
         .replace(/ /g, "%20")
         .replace(/\n\r?/g, "%0a")}`
     );
