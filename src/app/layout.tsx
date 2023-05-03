@@ -16,10 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} p-6 pt-12`}>
-        <QuickLink className=" left-4 top-4" />
+      <body className={`${inter.className} p-6 pt-12 relative min-h-screen`}>
         {children}
-        <QuickLink className=" right-4 bottom-4" />
+        <QuickLink className=" md:right-4 bottom-0 left-0" />
       </body>
     </html>
   );

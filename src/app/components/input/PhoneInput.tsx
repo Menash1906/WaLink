@@ -10,12 +10,9 @@ type Props = {
 
 const Phone = ({ phone, setPhone, checked, setChecked }: Props) => {
   return (
-    <div className="w-full flex justify-between items-center">
+    <div className="w-full flex flex-col md:flex-row gap-4 justify-between items-center">
       <div>
-        <label
-          htmlFor="phone"
-          className="block mb-2 text-sm font-medium"
-        >
+        <label htmlFor="phone" className="block mb-2 text-sm font-medium">
           Phone Number
         </label>
         <div className="relative">
