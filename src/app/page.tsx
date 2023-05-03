@@ -24,7 +24,7 @@ export default function Home() {
           setShowPhone={setShowPhone}
         />
         <div className="flex flex-col gap-6 justify-start p-2 w-full h-full rounded-lg items-end bg-gray-400/20">
-          <QuickActions usePhone={showPhone} text={text} phone={phone} />
+          <QuickActions text={text} phone={showPhone ? phone : ""} />
           <p className="break-words text-sm p-2 text-gray-400 w-full">
             {`https://wa.me/${showPhone ? phone : ""}?text=${text
               .replace(/ /g, "%20")
