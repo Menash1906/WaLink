@@ -2,9 +2,9 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <h1 className="font-semibold text-3xl">
-      <span className="font-bold text-4xl">Wa</span>
-      Link
+    <h1 className="font-extralight text-3xl">
+      <span className="font-semibold text-4xl"> Link</span>
+      erator
     </h1>
   );
 };

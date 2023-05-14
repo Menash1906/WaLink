@@ -5,8 +5,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "WaLink",
-  description: "Generate links for What'sApp",
+  title: "Linkerator",
+  description: "Generate links for WhatsApp",
 };
 
 export default function RootLayout({
