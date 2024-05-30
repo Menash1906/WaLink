@@ -5,8 +5,21 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Linkerator",
-  description: "Generate links for WhatsApp",
+  openGraph: {
+    title: "Linkerator",
+    description: "Generate links for WhatsApp",
+    url: "https://linkerator.vercel.app",
+    siteName: "Linkerator",
+    images: [
+      {
+        url: "https://linkerator.vercel.app/og.png", // Must be an absolute URL
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
